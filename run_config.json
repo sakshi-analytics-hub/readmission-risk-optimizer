@@ -1,0 +1,10 @@
+{
+  "best_model_by_roc_auc": "Logistic Regression",
+  "best_model_optimal_threshold": 0.13,
+  "cost_intervention": 500.0,
+  "cost_readmission": 13500.0,
+  "intervention_effectiveness": 0.28,
+  "n_train": 4500,
+  "n_test": 1500,
+  "base_rate_test": 0.148
+}
