@@ -1,11 +1,4 @@
-# 🏥 Readmission Risk Optimizer
-
-### 30-Day Hospital Readmission Risk Prediction & Cost-Aware Intervention Optimizer
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-app-red)
-![License](https://img.shields.io/badge/License-MIT-green)
+# 30-Day Hospital Readmission Risk Prediction & Cost-Aware Intervention Optimizer
 
 A complete, end-to-end classification project that (1) predicts which discharged
 patients are likely to be **readmitted within 30 days**, and (2) turns those
@@ -13,31 +6,11 @@ predictions into a **cost-optimal intervention policy** — i.e., who should
 actually be enrolled in a transitional-care program, given that the program
 costs money and readmissions cost more.
 
-**🔗 Live demo:** _add your Streamlit Cloud URL here after deploying_
-(e.g. `https://readmission-risk-optimizer.streamlit.app`)
-
 > **Note on data:** No dataset was provided, so `src/generate_data.py` builds a
 > statistically realistic **synthetic** discharge dataset (6,000 patients,
 > ~15% 30-day readmission rate, in line with published Medicare all-cause
 > readmission rates). Every column name mirrors what you'd find in a real EHR
 > discharge extract, so you can drop in real data by keeping the same schema.
-
----
-
-## Quick start
-
-```bash
-git clone https://github.com/<your-username>/readmission-risk-optimizer.git
-cd readmission-risk-optimizer
-pip install -r requirements.txt
-
-# Retrain everything (optional — trained model is already included)
-python src/generate_data.py
-python src/train_models.py
-
-# Launch the interactive app
-streamlit run app.py
-```
 
 ---
 
